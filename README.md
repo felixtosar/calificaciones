@@ -1,14 +1,22 @@
-# Autograding Example: Java
-This example project is written in Java, and tested with Gradle/JUnit.
+# ELSE - IF: Calificaciones
+Escribe un programa que lea un número del 0 al 10 y muestre por pantalla la calificación correspondiente.
 
-### The assignment
-The tests are currently failing because of an output mismatch. Fixing the `System.out.println` in the main method will make the tests green.
+|                    Nota                      |  Calificion   |
+|----------------------------------------------|-------------- |
+| menor que 5                                  | Suspenso      |
+| igual o superior a 5 y menor que 6           | Suficiente    |
+| igual o superior a 6 y menor que 7           | Bien          |
+| igual o superior a 7 y menor que 9           | Notable       |
+| igual o superior a 9 y menor o igual que 10  | Sobresaliente |
 
-### Setup command
-N/A
 
-### Run command
-`gradle test`
+### Ejemplo entrada 1
+```
+5
+```
 
-### Notes
-- The JDK is installed on GitHub Actions machines, so you're also able to directly invoke `javac`, `java`, or any other CLI command included in the JDK. 
+### Ejemplo salida 1
+
+```
+Suficiente
+```
