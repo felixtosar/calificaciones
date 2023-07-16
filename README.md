@@ -1,7 +1,7 @@
 # ELSE - IF: Calificaciones
 Escribe un programa que lea un número del 0 al 10 y muestre por pantalla la calificación correspondiente.
 
-|                    Nota                      |  Calificion   |
+|                    Nota                      |  Califición   |
 |----------------------------------------------|-------------- |
 | menor que 5                                  | Suspenso      |
 | igual o superior a 5 y menor que 6           | Suficiente    |
